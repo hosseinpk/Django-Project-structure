@@ -48,10 +48,13 @@ This repository contains a **Bash script** to automate the creation and setup of
 ---
 
 ## Usage
-
-1. **Run the script:**
+1. **Set permission:**
    ```bash
-   ./setup_django_project.sh
+   chmod +x setup_django_project.sh
+
+2. **Run the script:**
+   ```bash
+   source setup_django_project.sh
    ```
 
 2. **Follow the prompts:**
