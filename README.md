@@ -35,13 +35,11 @@ This repository contains a **Bash script** to automate the creation and setup of
 
 1. **Clone this repository:**
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/hosseinpk/Django-Project-structure.git
    ```
 
 2. **Ensure you have the following installed:**
    - Python 3.7 or higher.
-   - Django installed in your Python environment.
    - Bash shell (Linux/macOS or Git Bash on Windows).
 
 3. **Install required Python packages:**
@@ -64,27 +62,6 @@ This repository contains a **Bash script** to automate the creation and setup of
 
 ---
 
-## Examples
-
-### Creating a Django Project
-When prompted, enter your project name, and the script will:
-1. Create the project.
-2. Set up a virtual environment.
-3. Install dependencies from `requirements.txt`.
-
-### Adding an App
-You can add as many apps as needed:
-- The script automatically:
-  - Creates the app directory and essential files.
-  - Updates `INSTALLED_APPS` in `settings.py`.
-  - Adds app URLs to the main `urls.py`.
-
-### Generating Docker Configuration
-If you choose Docker options:
-- The `Dockerfile` will be created with Python and pip configurations.
-- The `docker-compose.yml` will include a service for running Django.
-
----
 
 ## Example Directory Structure
 
