@@ -51,13 +51,21 @@ This repository contains a **Bash script** to automate the creation and setup of
 1. **Set permission:**
    ```bash
    chmod +x setup_django_project.sh
-
-2. **Run the script:**
+   ```
+    or
+   ```bash
+   chmod +x django_creator_final.sh
+   ```
+3. **Run the script:**
    ```bash
    source setup_django_project.sh
    ```
+   or
+   ```bash
+   source django_creator_final.sh
+   ```
 
-2. **Follow the prompts:**
+5. **Follow the prompts:**
    - Enter the Django project name.
    - Choose whether to create an initial `accounts` app.
    - Optionally add more apps in a loop.
